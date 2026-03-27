@@ -28,9 +28,17 @@ AIが理解しやすいMarkdown形式で整理したものです。
 202605bousai_docling <https://github.com/asahinatakeshi/202605bousai_docling>　にアクセスし、
 
 まず index.md を読み、資料の全体構造を理解してください。
-次に docs フォルダのMarkdownを読み、必要に応じて assets と source を参照してください。
 
-2026年防災気象情報の変更点を整理してください。
+次に docs/00_Overview.md を読み、全体の変更点を把握してください。
+
+その後、以下の順番でMarkdownを読んでください：
+01_bousai → 02_kasen → 03_shinsui → 04_dosya → 05_souki → 06_kiki
+
+必要に応じて assets（図表）および source（原資料PDF）も参照してください。
+
+そのうえで、以下の質問に回答してください：
+「2026年防災気象情報の変更点を整理してください」
+
 
 
 ---

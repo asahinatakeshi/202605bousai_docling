@@ -1,32 +1,26 @@
 # 2026 Disaster Weather Information Changes (Japan)
 
 ## How to read (for AI)
+
 1. First read `docs/00_overview.md`
-2. Then read each topic file in `docs/`
+2. Then read topic files in `docs/`
 3. Use `assets/` for figures and supplementary materials
-4. Use `source/` only when necessary for original reference
+4. Use `source/` only when necessary for original documents
 
 ---
 
-## Topics
+## Documents (Main Topics)
 
-### River / Flood related
-- docs/01_kasen.md
-
-### Kiki-kuru (Risk Distribution)
-- docs/02_kiki.md
-
-### Inundation / Flood depth
-- docs/03_shinsui.md
-
-### Early warning information
-- docs/04_souki.md
+- docs/01_kasen.md  : River flooding information changes
+- docs/02_kiki.md   : Kiki-kuru (risk distribution) changes
+- docs/03_shinsui.md: Flood / inundation information changes
+- docs/04_souki.md  : Early warning information changes
 
 ---
 
 ## Questions this repository can answer
 
-- What changed in 2026 disaster weather information?
+- What changed in disaster weather information in 2026?
 - How did warning levels change?
 - What are the differences between old and new systems?
 - What actions should residents take?
@@ -34,7 +28,7 @@
 
 ---
 
-## Key concepts
+## Key Concepts
 
 - Warning Level (警戒レベル)
 - Equivalent Level (レベル相当)

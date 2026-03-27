@@ -2,7 +2,7 @@
 
 - 元ファイル相対パス: shinsui.pdf
 - 元拡張子: .pdf
-- 変換日時: 2026-03-27 18:57:43
+- 変換日時: 2026-03-27 20:14:42
 - 原本ファイル: [shinsui.pdf](_source_files/shinsui.pdf)
 
 ---
@@ -53,3 +53,9 @@
 :60
 
 分先までの雨雲の動きを予測
+
+## 浸水・洪水キキクル（危険度分布）の精度向上の概要
+
+![Image](E:\20260327_AA\shinsui_artifacts\image_000001_239b483377f37ffbfe1bff00b2efc430beaae74904a18d2b1cc0369e5d891773.png)
+
+![Image](E:\20260327_AA\shinsui_artifacts\image_000002_b639479e305a344408cbf9a61468e6260130060bde2da722fd657aa850fa5f13.png)

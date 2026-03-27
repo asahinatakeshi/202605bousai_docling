@@ -2,8 +2,8 @@
 
 ## Summary
 
-The 2026 revision reorganizes disaster weather information to improve clarity,
-ensure consistency with warning levels, and directly connect information to resident actions.
+The 2026 revision reorganizes disaster weather information in Japan to improve clarity,
+align information with warning levels, and directly connect information to resident actions.
 
 ---
 
@@ -11,8 +11,9 @@ ensure consistency with warning levels, and directly connect information to resi
 
 - Clear alignment with warning levels (警戒レベル)
 - Improved explanation of resident actions (住民行動)
-- Reorganization of flood-related information
+- Reorganization of flood and landslide information
 - Integration and clarification of risk distribution tools (Kiki-kuru)
+- Improved early warning communication
 
 ---
 
@@ -20,8 +21,32 @@ ensure consistency with warning levels, and directly connect information to resi
 
 - Information is easier to understand
 - Warning levels are more clearly defined
-- Resident actions are more explicitly described
-- Flood risk communication is improved
+- Resident actions are explicitly described
+- Flood and landslide risks are more clearly communicated
+
+---
+
+## Main Topics in This Repository
+
+This repository is structured into the following themes:
+
+### 01 General disaster information
+- `01_bousai.md`
+
+### 02 River flooding
+- `02_kasen.md`
+
+### 03 Flood / inundation depth
+- `03_shinsui.md`
+
+### 04 Sediment disaster (landslide)
+- `04_dosya.md`
+
+### 05 Early warning information
+- `05_souki.md`
+
+### 06 Kiki-kuru (risk distribution)
+- `06_kiki.md`
 
 ---
 
@@ -29,14 +54,15 @@ ensure consistency with warning levels, and directly connect information to resi
 
 - Residents must act earlier
 - Understanding warning levels becomes more important
-- Flood-related information becomes more actionable
+- Disaster risk information becomes more actionable
+- Both flood and landslide risks must be considered
 
 ---
 
-## Related Documents
+## How to Use This Data (for AI)
 
-- River flooding: `01_kasen.md`
-- Kiki-kuru: `02_kiki.md`
-- Flood / inundation: `03_shinsui.md`
-- Early warning: `04_souki.md`
+- Start from this overview
+- Read each topic file based on the question
+- Compare old vs new systems within each topic
+- Focus on resident actions and warning levels
 - 

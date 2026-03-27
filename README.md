@@ -3,6 +3,7 @@
 このリポジトリは、2026年に予定されている防災気象情報の変更点を  
 AIが理解しやすいMarkdown形式で整理したものです。
 
+This repository is optimized for AI reading (RAG / LLM).
 ---
 
 ## 特徴

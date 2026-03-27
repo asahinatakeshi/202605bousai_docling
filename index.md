@@ -2,8 +2,8 @@
 
 ## How to read (for AI)
 
-1. First read `docs/00_overview.md`
-2. Then read topic files in `docs/`
+1. First read `docs/00_Overview.md`
+2. Then read topic files in order (01 → 06)
 3. Use `assets/` for figures and supplementary materials
 4. Use `source/` only when necessary for original documents
 
@@ -11,10 +11,23 @@
 
 ## Documents (Main Topics)
 
-- docs/01_kasen.md  : River flooding information changes
-- docs/02_kiki.md   : Kiki-kuru (risk distribution) changes
-- docs/03_shinsui.md: Flood / inundation information changes
-- docs/04_souki.md  : Early warning information changes
+### 01 General overview of changes
+- docs/01_bousai.md
+
+### 02 River flooding information
+- docs/02_kasen.md
+
+### 03 Inundation / flood depth
+- docs/03_shinsui.md
+
+### 04 Sediment disaster (landslide)
+- docs/04_dosya.md
+
+### 05 Early warning information
+- docs/05_souki.md
+
+### 06 Kiki-kuru (risk distribution)
+- docs/06_kiki.md
 
 ---
 
@@ -24,7 +37,7 @@
 - How did warning levels change?
 - What are the differences between old and new systems?
 - What actions should residents take?
-- How are flood risks communicated?
+- How are flood and landslide risks communicated?
 
 ---
 
@@ -34,3 +47,5 @@
 - Equivalent Level (レベル相当)
 - Resident Action (住民行動)
 - Flood Risk Information
+- Landslide Risk Information
+- Kiki-kuru (Risk Distribution)

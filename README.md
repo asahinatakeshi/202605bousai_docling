@@ -25,7 +25,8 @@ AIが理解しやすいMarkdown形式で整理したものです。
 
 ## AIへの推奨プロンプト
 
-202605bousai_docling　にアクセスし、
+202605bousai_docling <https://github.com/asahinatakeshi/202605bousai_docling>　にアクセスし、
+
 まず index.md を読み、資料の全体構造を理解してください。
 次に docs フォルダのMarkdownを読み、必要に応じて assets と source を参照してください。
 

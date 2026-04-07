@@ -24,6 +24,12 @@ This repository is optimized for AI reading (RAG / LLM).
 
 ---
 
+## Github pages
+
+https://asahinatakeshi.github.io/202605bousai_docling/
+
+---
+
 ## AIへの推奨プロンプト
 
 202605bousai_docling <https://github.com/asahinatakeshi/202605bousai_docling>　にアクセスし、

@@ -2,118 +2,73 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>防災気象情報（2026年改正）ドキュメント</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>2026 Disaster Weather Information Changes (Japan)</title>
   <style>
     body {
       font-family: "Yu Gothic", "Hiragino Kaku Gothic ProN", sans-serif;
-      margin: 40px;
-      line-height: 1.6;
-      background-color: #f9f9f9;
+      max-width: 960px;
+      margin: 40px auto;
+      padding: 0 16px;
+      line-height: 1.7;
+      color: #222;
     }
-    h1 {
-      border-bottom: 3px solid #333;
-      padding-bottom: 10px;
+    h1, h2 { margin-top: 1.4em; }
+    .box {
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 16px 20px;
+      margin: 16px 0;
+      background: #fafafa;
     }
-    table {
-      border-collapse: collapse;
-      width: 100%;
-      background: white;
-    }
-    th {
-      background-color: #000;
-      color: #fff;
-      padding: 10px;
-      text-align: left;
-    }
-    td {
-      border: 1px solid #ccc;
-      padding: 10px;
-    }
-    tr:nth-child(even) {
-      background-color: #f2f2f2;
-    }
-    a {
-      color: #0066cc;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    .desc {
-      color: #555;
-      font-size: 14px;
+    ul { padding-left: 1.2em; }
+    a { text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    code {
+      background: #f3f3f3;
+      padding: 2px 6px;
+      border-radius: 4px;
     }
   </style>
 </head>
 <body>
+  <h1>2026 Disaster Weather Information Changes (Japan)</h1>
 
-<h1>防災気象情報（2026年改正）ドキュメント一覧</h1>
+  <p>
+    This repository organizes the 2026 changes in disaster weather information in Japan
+    into AI-readable Markdown files.
+  </p>
 
-<p>
-本ページは、防災気象情報の改善内容をAI・人間双方が参照しやすいようにMarkdown化した資料の一覧である。
-</p>
+  <div class="box">
+    <h2>How to read</h2>
+    <ol>
+      <li>First read <a href="docs/00_Overview.md">docs/00_Overview.md</a></li>
+      <li>Then read topic files in order (01 → 06)</li>
+      <li>Use <a href="assets/">assets/</a> for figures and supplementary materials</li>
+      <li>Use <a href="source/">source/</a> only when necessary for original documents</li>
+    </ol>
+  </div>
 
-<table>
-  <thead>
-    <tr>
-      <th>No</th>
-      <th>ファイル名</th>
-      <th>内容</th>
-    </tr>
-  </thead>
-  <tbody>
+  <div class="box">
+    <h2>Documents</h2>
+    <ul>
+      <li><a href="docs/01_bousai.md">01 General overview of changes</a></li>
+      <li><a href="docs/02_kasen.md">02 River flooding information</a></li>
+      <li><a href="docs/03_shinsui.md">03 Inundation / flood depth</a></li>
+      <li><a href="docs/04_dosya.md">04 Sediment disaster (landslide)</a></li>
+      <li><a href="docs/05_souki.md">05 Early warning information</a></li>
+      <li><a href="docs/06_kiki.md">06 Kiki-kuru (risk distribution)</a></li>
+    </ul>
+  </div>
 
-    <tr>
-      <td>1</td>
-      <td><a href="index.md">index.md</a></td>
-      <td class="desc">全体構成・読み方</td>
-    </tr>
-
-    <tr>
-      <td>2</td>
-      <td><a href="防災気象情報の改善について.md">防災気象情報の改善について</a></td>
-      <td class="desc">全体的な改善方針</td>
-    </tr>
-
-    <tr>
-      <td>3</td>
-      <td><a href="河川氾濫・大雨に関する情報の改善.md">河川氾濫・大雨に関する情報の改善</a></td>
-      <td class="desc">氾濫・大雨の情報体系の変更</td>
-    </tr>
-
-    <tr>
-      <td>4</td>
-      <td><a href="土砂災害に関する情報の改善.md">土砂災害に関する情報の改善</a></td>
-      <td class="desc">土砂災害情報の見直し</td>
-    </tr>
-
-    <tr>
-      <td>5</td>
-      <td><a href="早期注意情報の変更について.md">早期注意情報の変更について</a></td>
-      <td class="desc">警戒レベル1相当の変更</td>
-    </tr>
-
-    <tr>
-      <td>6</td>
-      <td><a href="キキクルの改善について.md">キキクルの改善について</a></td>
-      <td class="desc">危険度分布の改善</td>
-    </tr>
-
-    <tr>
-      <td>7</td>
-      <td><a href="浸水・洪水キキクル（危険度分布）の変更点.md">浸水・洪水キキクルの変更点</a></td>
-      <td class="desc">浸水・洪水の可視化改善</td>
-    </tr>
-
-  </tbody>
-</table>
-
-<h2>補足</h2>
-<ul>
-  <li>各ファイルはMarkdown形式であり、GitHub上で閲覧可能である</li>
-  <li>imagesフォルダには図表、sourceフォルダには原資料PDFを格納している</li>
-  <li>AIに読み込ませる場合は index.md を起点とすることが推奨される</li>
-</ul>
-
+  <div class="box">
+    <h2>Repository guide</h2>
+    <ul>
+      <li><a href="index.md">index.md</a></li>
+      <li><a href="README.md">README.md</a></li>
+      <li><a href="assets/">assets/ folder</a></li>
+      <li><a href="source/">source/ folder</a></li>
+    </ul>
+  </div>
 </body>
 </html>

@@ -1,36 +1,119 @@
-2026年 防災気象情報の変更点（AI対応データセット）
-このリポジトリは、2026年に予定されている防災気象情報の変更点を
-AIが理解しやすいMarkdown形式で整理したものです。
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>防災気象情報（2026年改正）ドキュメント</title>
+  <style>
+    body {
+      font-family: "Yu Gothic", "Hiragino Kaku Gothic ProN", sans-serif;
+      margin: 40px;
+      line-height: 1.6;
+      background-color: #f9f9f9;
+    }
+    h1 {
+      border-bottom: 3px solid #333;
+      padding-bottom: 10px;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      background: white;
+    }
+    th {
+      background-color: #000;
+      color: #fff;
+      padding: 10px;
+      text-align: left;
+    }
+    td {
+      border: 1px solid #ccc;
+      padding: 10px;
+    }
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+    a {
+      color: #0066cc;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .desc {
+      color: #555;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
 
-This repository is optimized for AI reading (RAG / LLM).
-特徴
-PDF資料をMarkdown化（Docling使用）
-図・表・構造を維持
-AIが理解しやすい構造に整理
-GitHub Pages / RAG対応
-フォルダ構成
-docs/ : AIが最初に読む本文
-assets/ : 図・画像・補助資料
-source/ : 元PDF
-index.md: AI用ナビゲーション
-AIへの推奨プロンプト
-202605bousai_docling https://github.com/asahinatakeshi/202605bousai_docling　にアクセスし、
+<h1>防災気象情報（2026年改正）ドキュメント一覧</h1>
 
-まず index.md を読み、資料の全体構造を理解してください。
+<p>
+本ページは、防災気象情報の改善内容をAI・人間双方が参照しやすいようにMarkdown化した資料の一覧である。
+</p>
 
-次に docs/00_Overview.md を読み、全体の変更点を把握してください。
+<table>
+  <thead>
+    <tr>
+      <th>No</th>
+      <th>ファイル名</th>
+      <th>内容</th>
+    </tr>
+  </thead>
+  <tbody>
 
-その後、以下の順番でMarkdownを読んでください： 01_bousai → 02_kasen → 03_shinsui → 04_dosya → 05_souki → 06_kiki
+    <tr>
+      <td>1</td>
+      <td><a href="index.md">index.md</a></td>
+      <td class="desc">全体構成・読み方</td>
+    </tr>
 
-必要に応じて assets（図表）および source（原資料PDF）も参照してください。
+    <tr>
+      <td>2</td>
+      <td><a href="防災気象情報の改善について.md">防災気象情報の改善について</a></td>
+      <td class="desc">全体的な改善方針</td>
+    </tr>
 
-そのうえで、以下の質問に回答してください： 「2026年防災気象情報の変更点を整理してください」
+    <tr>
+      <td>3</td>
+      <td><a href="河川氾濫・大雨に関する情報の改善.md">河川氾濫・大雨に関する情報の改善</a></td>
+      <td class="desc">氾濫・大雨の情報体系の変更</td>
+    </tr>
 
-主な内容
-河川氾濫情報の変更
-キキクルの見直し
-浸水想定の整理
-早期注意情報の変更
-注意点
-一部の図表は完全再現ではありません
-詳細は source フォルダを参照してください
+    <tr>
+      <td>4</td>
+      <td><a href="土砂災害に関する情報の改善.md">土砂災害に関する情報の改善</a></td>
+      <td class="desc">土砂災害情報の見直し</td>
+    </tr>
+
+    <tr>
+      <td>5</td>
+      <td><a href="早期注意情報の変更について.md">早期注意情報の変更について</a></td>
+      <td class="desc">警戒レベル1相当の変更</td>
+    </tr>
+
+    <tr>
+      <td>6</td>
+      <td><a href="キキクルの改善について.md">キキクルの改善について</a></td>
+      <td class="desc">危険度分布の改善</td>
+    </tr>
+
+    <tr>
+      <td>7</td>
+      <td><a href="浸水・洪水キキクル（危険度分布）の変更点.md">浸水・洪水キキクルの変更点</a></td>
+      <td class="desc">浸水・洪水の可視化改善</td>
+    </tr>
+
+  </tbody>
+</table>
+
+<h2>補足</h2>
+<ul>
+  <li>各ファイルはMarkdown形式であり、GitHub上で閲覧可能である</li>
+  <li>imagesフォルダには図表、sourceフォルダには原資料PDFを格納している</li>
+  <li>AIに読み込ませる場合は index.md を起点とすることが推奨される</li>
+</ul>
+
+</body>
+</html>
